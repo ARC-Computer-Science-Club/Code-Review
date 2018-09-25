@@ -14,7 +14,7 @@ int main(void) {
     
     
     
-    while ((temp_sto = fib(j)) < UPPER_LIMIT) {            //because starting with j = 2 only terms of Fibonacci sequence with numbers, that a multiples of four are even
+    while ((temp_sto = fib(j)) < UPPER_LIMIT) {            //because starting with j = 2 only terms of Fibonacci sequence with numbers, that are computed by adding three are even
         
         sum += temp_sto;
         
